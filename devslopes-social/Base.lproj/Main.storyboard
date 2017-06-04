@@ -86,7 +86,7 @@
                                         <rect key="frame" x="0.0" y="45" width="283" height="30"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.86624999999999996" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u21-PL-8CH" customClass="FancyBtn" customModule="devslopes_social" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="90" width="283" height="37"/>
@@ -95,6 +95,9 @@
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PyU-DV-qnX"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -118,18 +121,14 @@
                             <constraint firstItem="zwS-dF-fE9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="uFI-He-mNf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="jfY-hQ-JjQ" id="Efb-eh-j9d"/>
+                        <outlet property="passwordField" destination="IOT-QP-XDs" id="nfD-Fw-DND"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1406" y="349"/>
-        </scene>
-        <!--AV Player View Controller-->
-        <scene sceneID="vKH-Ft-mQw">
-            <objects>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="qdV-Dc-H0A" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ixs-QM-HeQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2318" y="208"/>
+            <point key="canvasLocation" x="-1321" y="260"/>
         </scene>
     </scenes>
     <resources>

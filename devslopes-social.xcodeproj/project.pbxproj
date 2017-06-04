@@ -37,6 +37,7 @@
 		BF5BD4C01EE48F6C0015BC7C /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		BF5BD4C21EE490E80015BC7C /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		BF5BD4C41EE492370015BC7C /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		BF5BD4C61EE4983B0015BC7C /* devslopes-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "devslopes-social.entitlements"; sourceTree = "<group>"; };
 		C2A5401E1BCAD1809A272122 /* Pods_devslopes_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,6 +91,7 @@
 		BF5BD4A31EE465DC0015BC7C /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				BF5BD4C61EE4983B0015BC7C /* devslopes-social.entitlements */,
 				BF5BD4BD1EE48DA80015BC7C /* Util */,
 				BF5BD4B81EE4686F0015BC7C /* Model */,
 				BF5BD4BA1EE468780015BC7C /* Controller */,
@@ -175,6 +177,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = JC6KK8YFB6;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -395,6 +402,7 @@
 			baseConfigurationReference = B2856C30692FCFF2FF62F3DC /* Pods-devslopes-social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-social/devslopes-social.entitlements";
 				DEVELOPMENT_TEAM = JC6KK8YFB6;
 				INFOPLIST_FILE = "devslopes-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -409,6 +417,7 @@
 			baseConfigurationReference = BA01D942E247210A8E4F375F /* Pods-devslopes-social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-social/devslopes-social.entitlements";
 				DEVELOPMENT_TEAM = JC6KK8YFB6;
 				INFOPLIST_FILE = "devslopes-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
