@@ -20,6 +20,8 @@
 		BF5BD4C31EE490E80015BC7C /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BD4C21EE490E80015BC7C /* FancyField.swift */; };
 		BF5BD4C51EE492370015BC7C /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5BD4C41EE492370015BC7C /* FancyBtn.swift */; };
 		BFCDFE0E1EE4CA850019F45A /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDFE0D1EE4CA850019F45A /* FeedVC.swift */; };
+		BFCDFE101EE4D7390019F45A /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDFE0F1EE4D7390019F45A /* CircleView.swift */; };
+		BFCDFE121EE5B9200019F45A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDFE111EE5B9200019F45A /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		BF5BD4C41EE492370015BC7C /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		BF5BD4C61EE4983B0015BC7C /* devslopes-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "devslopes-social.entitlements"; sourceTree = "<group>"; };
 		BFCDFE0D1EE4CA850019F45A /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		BFCDFE0F1EE4D7390019F45A /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		BFCDFE111EE5B9200019F45A /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		C2A5401E1BCAD1809A272122 /* Pods_devslopes_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,6 +126,8 @@
 				BF5BD4C01EE48F6C0015BC7C /* RoundBtn.swift */,
 				BF5BD4C21EE490E80015BC7C /* FancyField.swift */,
 				BF5BD4C41EE492370015BC7C /* FancyBtn.swift */,
+				BFCDFE0F1EE4D7390019F45A /* CircleView.swift */,
+				BFCDFE111EE5B9200019F45A /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCDFE101EE4D7390019F45A /* CircleView.swift in Sources */,
 				BF5BD4C31EE490E80015BC7C /* FancyField.swift in Sources */,
 				BF5BD4A71EE465DC0015BC7C /* SignInVC.swift in Sources */,
 				BF5BD4C11EE48F6C0015BC7C /* RoundBtn.swift in Sources */,
@@ -281,6 +288,7 @@
 				BF5BD4BC1EE48C950015BC7C /* FancyView.swift in Sources */,
 				BF5BD4BF1EE48DB80015BC7C /* Constants.swift in Sources */,
 				BF5BD4C51EE492370015BC7C /* FancyBtn.swift in Sources */,
+				BFCDFE121EE5B9200019F45A /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
